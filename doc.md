@@ -1,0 +1,263 @@
+# Tài liệu Go
+
+Ngôn ngữ lập trình Go là một dự án mã nguồn mở nhằm giúp các lập trình viên làm việc hiệu quả hơn.
+
+Go mang tính biểu đạt cao, súc tích, sạch sẽ và hiệu quả. Các cơ chế đồng thời của nó giúp dễ dàng viết các chương trình tận dụng tối đa các máy đa lõi và mạng, trong khi hệ thống kiểu mới lạ cho phép xây dựng chương trình linh hoạt và theo module. Go biên dịch nhanh thành mã máy nhưng có sự tiện lợi của garbage collection và sức mạnh của runtime reflection. Đây là một ngôn ngữ biên dịch tĩnh, có kiểu nhanh mà cảm giác như ngôn ngữ động, thông dịch.
+
+---
+
+## Bắt đầu
+
+### Cài đặt Go
+
+Hướng dẫn tải xuống và cài đặt Go.
+
+### Hướng dẫn: Bắt đầu với Go
+
+Một hướng dẫn giới thiệu ngắn gọn "Hello, World" để thiết lập và sử dụng Go. Tìm hiểu một chút về mã Go, công cụ, package và module.
+
+### Hướng dẫn: Tạo một module Go
+
+Một hướng dẫn giới thiệu ngắn về các hàm, xử lý lỗi, mảng, map, unit testing và biên dịch.
+
+### Hướng dẫn: Bắt đầu với multi-module workspaces
+
+Giới thiệu về cơ bản của việc tạo và sử dụng multi-module workspaces trong Go. Multi-module workspaces hữu ích cho việc thực hiện các thay đổi trên nhiều module.
+
+### Hướng dẫn: Phát triển RESTful API với Go và Gin
+
+Giới thiệu về viết RESTful web service API với Go và Gin Web Framework.
+
+### Hướng dẫn: Bắt đầu với generics
+
+Với generics, bạn có thể khai báo và sử dụng các hàm hoặc kiểu được viết để làm việc với bất kỳ tập hợp kiểu nào do mã gọi cung cấp.
+
+### Hướng dẫn: Bắt đầu với fuzzing
+
+Fuzzing có thể tạo ra các đầu vào cho các bài test của bạn có thể bắt được các trường hợp biên mà bạn có thể đã bỏ lỡ.
+
+### Viết Ứng dụng Web
+
+Xây dựng một ứng dụng web đơn giản.
+
+### Cách viết mã Go
+
+Tài liệu này giải thích cách phát triển một tập hợp đơn giản các Go package bên trong một module, và cho thấy cách sử dụng lệnh go để build và test các package.
+
+---
+
+## Sử dụng và hiểu Go
+
+### Effective Go
+
+Một tài liệu cung cấp các mẹo để viết mã Go rõ ràng, theo phong cách chuẩn. Đây là tài liệu phải đọc cho bất kỳ lập trình viên Go mới nào. Nó bổ sung cho tour và đặc tả ngôn ngữ, cả hai đều nên đọc trước.
+
+### Đặc tả ngôn ngữ Go
+
+Đặc tả chính thức của ngôn ngữ Go.
+
+### Tài liệu thư viện chuẩn
+
+Tài liệu cho thư viện chuẩn Go.
+
+### Go Modules Reference
+
+Tham chiếu chi tiết cho hệ thống quản lý phụ thuộc của Go.
+
+### go.mod file reference
+
+Tham chiếu cho các chỉ thị có trong file go.mod.
+
+### Tham chiếu lệnh Go
+
+Tài liệu cho công cụ Go.
+
+### Tham chiếu Comment tài liệu
+
+Viết các comment tài liệu cho godoc.
+
+### Một Tour về Go
+
+Một tour tương tác về Go trong 4 phần. Phần đầu tiên bao gồm cú pháp cơ bản và cấu trúc dữ liệu; phần thứ hai thảo luận về các phương thức và interface; phần thứ ba giới thiệu về generics của Go; và phần thứ tư là về các nguyên thủy đồng thời của Go. Mỗi phần kết thúc với một vài bài tập để bạn có thể thực hành những gì bạn đã học. Bạn có thể tham gia tour trực tuyến hoặc cài đặt nó cục bộ với:
+
+```bash
+$ go install golang.org/x/website/tour@latest
+```
+
+Điều này sẽ đặt binary tour trong thư mục bin của GOPATH của bạn.
+
+### Câu hỏi thường gặp (FAQ)
+
+Câu trả lời cho các câu hỏi phổ biến về Go.
+
+---
+
+## Tham chiếu
+
+### Bản phát hành
+
+Lịch sử phát hành Go.
+
+### Go Wiki
+
+Một wiki được duy trì bởi cộng đồng Go.
+
+### Tài liệu Tham khảo về Môi trường
+
+Các biến môi trường ảnh hưởng đến hành vi của các công cụ Go.
+
+---
+
+## Hỗ trợ biên tập viên và IDE
+
+### Hỗ trợ plugin và IDE cho biên tập viên
+
+Một tài liệu tóm tắt các plugin và IDE phổ biến được sử dụng với Go.
+
+### Gopls
+
+Gopls là Go language server cung cấp các tính năng như tự động hoàn thành, định dạng và chẩn đoán cho các IDE và biên tập văn bản.
+
+---
+
+## Công cụ chẩn đoán
+
+### Tổng quan về công cụ chẩn đoán
+
+Một tổng quan về các công cụ và phương pháp chẩn đoán các vấn đề trong chương trình Go.
+
+### Hướng dẫn Garbage Collector
+
+Một hướng dẫn về cách Go quản lý bộ nhớ và cách tận dụng tối đa nó.
+
+### Hướng dẫn thu thập Profile
+
+Một hướng dẫn về cách sử dụng profile hướng dẫn tối ưu hóa (PGO) trong Go.
+
+---
+
+## Các bài viết
+
+### Wiki Go
+
+Wiki Go, được duy trì bởi cộng đồng Go, bao gồm các bài viết về ngôn ngữ Go, công cụ và các chủ đề khác.
+
+### Tài liệu không phải tiếng Anh
+
+Xem trang Tài liệu không phải tiếng Anh tại Wiki Go để biết các bản địa hóa của tài liệu Go.
+
+---
+
+## Cgo
+
+### Cgo
+
+Liên kết mã Go với các package C bên ngoài.
+
+### Gọi Go từ C
+
+Cách gọi hàm Go từ mã C.
+
+---
+
+## Các chủ đề nâng cao
+
+### Bảo hiểm Code
+
+Mô tả cách sử dụng công cụ bảo hiểm code được tích hợp với go test.
+
+### Tham chiếu Format Testdata
+
+Tham chiếu cho syntax của file "txtar" testdata.
+
+### Cấu hình Fuzz
+
+Tham chiếu cho các cấu hình có thể đọc và giải quyết được bằng công cụ go.
+
+### Quản lý phụ thuộc
+
+Khi mã của bạn sử dụng các package bên ngoài, các package đó (được phân phối dưới dạng module) trở thành các phụ thuộc.
+
+### Đánh giá hiệu suất
+
+Mô tả cách viết và đọc benchmark tests trong Go.
+
+### Fuzz Testing
+
+Mô tả cách sử dụng fuzzer bản địa của Go.
+
+### Assembly
+
+Mô tả cách sử dụng hợp ngữ Go để thực hiện các tác vụ cấp thấp.
+
+### Race Detector
+
+Mô tả cách sử dụng công cụ phát hiện data race.
+
+### Làm việc với các đường dẫn file
+
+Mô tả các vấn đề mà các đường dẫn file có thể gây ra và cách làm việc với chúng một cách an toàn trong Go.
+
+---
+
+## Xây dựng và phát hành
+
+### Module Mirror và Checksum Database
+
+Cách sử dụng module mirror và checksum database.
+
+### Private Module
+
+Cách cấu hình các module riêng tư với go.
+
+### Xây dựng lại có thể tái tạo
+
+Cách xác minh rằng một bản build Go được tái tạo chính xác.
+
+---
+
+## Phát triển Go
+
+### Quá trình phát triển
+
+Tham gia vào phát triển Go.
+
+### Đóng góp mã
+
+Quy trình để gửi các thay đổi cho dự án Go.
+
+### Đóng góp vào Wiki
+
+Quy trình để đóng góp vào Wiki Go.
+
+### Thiết lập và sử dụng Website Go cục bộ
+
+Cách thiết lập website Go cục bộ để phát triển.
+
+### Source code
+
+Xem mã nguồn Go.
+
+---
+
+## Cộng đồng
+
+Cộng đồng Go rất sôi nổi và thân thiện. Để tham gia:
+
+- **Go Forum**: Diễn đàn thảo luận Go.
+- **Gophers Slack**: Kênh chat cho các lập trình viên Go.
+- **Go Meetups**: Các nhóm gặp mặt địa phương.
+- **GopherCon**: Hội nghị chính thức về Go.
+
+---
+
+## Liên kết hữu ích
+
+- [Go.dev](https://go.dev) - Trang chủ chính thức
+- [Go Playground](https://go.dev/play/) - Chạy mã Go trực tuyến
+- [Go Blog](https://go.dev/blog/) - Blog chính thức của Go
+- [Go Packages](https://pkg.go.dev) - Tìm kiếm các package Go
+
+---
+
+*Tài liệu này được dịch từ [go.dev/doc](https://go.dev/doc/) để phục vụ cộng đồng lập trình viên Việt Nam.*
