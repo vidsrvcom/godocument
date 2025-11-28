@@ -207,16 +207,6 @@ Lệnh Go tìm module `example.com/hello` được xác định trong dòng lệ
 
 Vì hai module đều trong cùng một workspace nên dễ dàng thực hiện thay đổi trong một module và sử dụng nó trong một module khác.
 
-### Các lệnh workspace trong tương lai
-
-Lệnh `go` có một vài lệnh con để làm việc với workspaces ngoài `go work init` mà chúng tôi đã thấy trước đó trong hướng dẫn:
-
-- `go work use [-r] [dir]` thêm một chỉ thị `use` vào file `go.work` cho `dir`, nếu nó tồn tại, và xóa chỉ thị `use` nếu đối số thư mục không tồn tại. Cờ `-r` kiểm tra các thư mục con của `dir` một cách đệ quy.
-- `go work edit` chỉnh sửa file `go.work` tương tự như `go mod edit`
-- `go work sync` đồng bộ các phụ thuộc từ danh sách build workspace vào từng file `go.mod` của các module workspace.
-
-Xem [Workspaces](https://go.dev/ref/mod#workspaces) trong Go Modules Reference để biết thêm chi tiết về workspaces và file `go.work`.
-
 ## Tìm hiểu thêm về workspaces
 
 Lệnh `go` có một vài lệnh con để làm việc với workspaces ngoài `go work init` mà chúng tôi đã thấy trước đó trong hướng dẫn:
