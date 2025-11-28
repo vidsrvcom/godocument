@@ -246,7 +246,7 @@ Cách gọi hàm Go từ mã C.
 
 ## Các chủ đề nâng cao
 
-### Bảo hiểm Code
+### [Bảo hiểm Code](docs/advanced/code-coverage.md)
 
 Mô tả cách sử dụng công cụ bảo hiểm code được tích hợp với go test.
 
@@ -258,15 +258,15 @@ Tham chiếu cho syntax của file "txtar" testdata.
 
 Tham chiếu cho các cấu hình có thể đọc và giải quyết được bằng công cụ go.
 
-### Quản lý phụ thuộc
+### [Quản lý phụ thuộc](docs/advanced/dependency-management.md)
 
 Khi mã của bạn sử dụng các package bên ngoài, các package đó (được phân phối dưới dạng module) trở thành các phụ thuộc.
 
-### Đánh giá hiệu suất
+### [Đánh giá hiệu suất](docs/advanced/benchmarking.md)
 
 Mô tả cách viết và đọc benchmark tests trong Go.
 
-### Fuzz Testing
+### [Fuzz Testing](docs/advanced/fuzzing.md)
 
 Mô tả cách sử dụng fuzzer bản địa của Go.
 
@@ -274,7 +274,7 @@ Mô tả cách sử dụng fuzzer bản địa của Go.
 
 Mô tả cách sử dụng hợp ngữ Go để thực hiện các tác vụ cấp thấp.
 
-### Race Detector
+### [Race Detector](docs/advanced/race-detector.md)
 
 Mô tả cách sử dụng công cụ phát hiện data race.
 
@@ -290,7 +290,7 @@ Mô tả cách kích hoạt chế độ tuân thủ FIPS 140 trong Go.
 
 ## Đo lường từ xa Go (Telemetry)
 
-### Tổng quan về Đo lường từ xa
+### [Tổng quan về Đo lường từ xa](docs/telemetry/overview.md)
 
 Đo lường từ xa là thu thập dữ liệu sử dụng và chẩn đoán ẩn danh từ chuỗi công cụ Go để cải thiện trải nghiệm nhà phát triển.
 
@@ -310,7 +310,7 @@ Thông tin về quyền riêng tư liên quan đến việc thu thập và xử 
 
 ## Xây dựng và phát hành
 
-### Module Mirror và Checksum Database
+### [Module Mirror và Checksum Database](docs/build/module-mirror.md)
 
 Cách sử dụng module mirror và checksum database.
 
@@ -330,7 +330,7 @@ Cách xác minh rằng một bản build Go được tái tạo chính xác.
 
 Tham gia vào phát triển Go.
 
-### Đóng góp mã
+### [Đóng góp mã](docs/development/contributing.md)
 
 Quy trình để gửi các thay đổi cho dự án Go.
 
@@ -348,7 +348,7 @@ Xem mã nguồn Go.
 
 ---
 
-## Cộng đồng
+## [Cộng đồng](docs/community/overview.md)
 
 Cộng đồng Go rất sôi nổi và thân thiện. Để tham gia:
 
