@@ -56,35 +56,35 @@ Hướng dẫn sử dụng govulncheck để tìm và sửa các lỗ hổng b�
 
 ## Sử dụng và hiểu Go
 
-### Effective Go
+### [Effective Go](docs/using-go/effective-go.md)
 
 Một tài liệu cung cấp các mẹo để viết mã Go rõ ràng, theo phong cách chuẩn. Đây là tài liệu phải đọc cho bất kỳ lập trình viên Go mới nào. Nó bổ sung cho tour và đặc tả ngôn ngữ, cả hai đều nên đọc trước.
 
-### Đặc tả ngôn ngữ Go
+### [Đặc tả ngôn ngữ Go](docs/using-go/spec.md)
 
 Đặc tả chính thức của ngôn ngữ Go.
 
-### Tài liệu thư viện chuẩn
+### [Tài liệu thư viện chuẩn](docs/using-go/stdlib.md)
 
 Tài liệu cho thư viện chuẩn Go.
 
-### Go Modules Reference
+### [Go Modules Reference](docs/using-go/modules-reference.md)
 
 Tham chiếu chi tiết cho hệ thống quản lý phụ thuộc của Go.
 
-### go.mod file reference
+### [go.mod file reference](docs/using-go/gomod-reference.md)
 
 Tham chiếu cho các chỉ thị có trong file go.mod.
 
-### Tham chiếu lệnh Go
+### [Tham chiếu lệnh Go](docs/using-go/go-command.md)
 
 Tài liệu cho công cụ Go.
 
-### Tham chiếu Comment tài liệu
+### [Tham chiếu Comment tài liệu](docs/using-go/doc-comment.md)
 
 Viết các comment tài liệu cho godoc.
 
-### Một Tour về Go
+### [Một Tour về Go](docs/using-go/tour.md)
 
 Một tour tương tác về Go trong 4 phần. Phần đầu tiên bao gồm cú pháp cơ bản và cấu trúc dữ liệu; phần thứ hai thảo luận về các phương thức và interface; phần thứ ba giới thiệu về generics của Go; và phần thứ tư là về các nguyên thủy đồng thời của Go. Mỗi phần kết thúc với một vài bài tập để bạn có thể thực hành những gì bạn đã học. Bạn có thể tham gia tour trực tuyến hoặc cài đặt nó cục bộ với:
 
@@ -94,11 +94,11 @@ $ go install golang.org/x/website/tour@latest
 
 Điều này sẽ đặt binary tour trong thư mục bin của GOPATH của bạn.
 
-### Mô hình Bộ nhớ Go
+### [Mô hình Bộ nhớ Go](docs/using-go/memory-model.md)
 
 Mô hình bộ nhớ Go xác định các điều kiện theo đó các hoạt động đọc một biến trong một goroutine có thể được đảm bảo quan sát các giá trị được tạo ra bởi các hoạt động ghi vào cùng một biến trong một goroutine khác.
 
-### Câu hỏi thường gặp (FAQ)
+### [Câu hỏi thường gặp (FAQ)](docs/using-go/faq.md)
 
 Câu trả lời cho các câu hỏi phổ biến về Go.
 
@@ -106,19 +106,19 @@ Câu trả lời cho các câu hỏi phổ biến về Go.
 
 ## Tham chiếu
 
-### Bản phát hành
+### [Bản phát hành](docs/references/release-history.md)
 
 Lịch sử phát hành Go.
 
-### Cam kết Tương thích Go 1
+### [Cam kết Tương thích Go 1](docs/references/go1-compat.md)
 
 Cam kết Go 1 về tính tương thích. Các chương trình Go viết theo đặc tả Go 1 sẽ tiếp tục biên dịch và chạy đúng, không thay đổi, trong suốt vòng đời của phiên bản 1 của Go.
 
-### Go Wiki
+### [Go Wiki](docs/references/wiki.md)
 
 Một wiki được duy trì bởi cộng đồng Go.
 
-### Tài liệu Tham khảo về Môi trường
+### [Tài liệu Tham khảo về Môi trường](docs/references/environment.md)
 
 Các biến môi trường ảnh hưởng đến hành vi của các công cụ Go.
 
@@ -126,11 +126,11 @@ Các biến môi trường ảnh hưởng đến hành vi của các công cụ 
 
 ## Hỗ trợ biên tập viên và IDE
 
-### Hỗ trợ plugin và IDE cho biên tập viên
+### [Hỗ trợ plugin và IDE cho biên tập viên](docs/editors/ide-support.md)
 
 Một tài liệu tóm tắt các plugin và IDE phổ biến được sử dụng với Go.
 
-### Gopls
+### [Gopls](docs/editors/gopls.md)
 
 Gopls là Go language server cung cấp các tính năng như tự động hoàn thành, định dạng và chẩn đoán cho các IDE và biên tập văn bản.
 
@@ -138,27 +138,27 @@ Gopls là Go language server cung cấp các tính năng như tự động hoàn
 
 ## Bảo mật
 
-### Tổng quan về Bảo mật
+### [Tổng quan về Bảo mật](docs/security/overview.md)
 
 Tổng quan về các tài nguyên bảo mật cho các nhà phát triển Go.
 
-### Chính sách Bảo mật Go
+### [Chính sách Bảo mật Go](docs/security/security-policy.md)
 
 Mô tả cách nhóm Go xử lý các lỗi bảo mật trong ngôn ngữ Go, thư viện, và các công cụ. Bao gồm hướng dẫn báo cáo các vấn đề bảo mật.
 
-### Quản lý Lỗ hổng Bảo mật
+### [Quản lý Lỗ hổng Bảo mật](docs/security/vulnerability-management.md)
 
 Tổng quan về cách Go hỗ trợ phát hiện và giải quyết các lỗ hổng bảo mật trong các phụ thuộc của dự án Go.
 
-### Cơ sở dữ liệu Lỗ hổng Go
+### [Cơ sở dữ liệu Lỗ hổng Go](docs/security/vulnerability-database.md)
 
 Cơ sở dữ liệu lỗ hổng Go là nguồn tổng hợp thông tin về các lỗ hổng bảo mật đã biết trong các module Go công khai.
 
-### govulncheck
+### [govulncheck](docs/security/govulncheck.md)
 
 Govulncheck là công cụ dòng lệnh báo cáo các lỗ hổng bảo mật đã biết ảnh hưởng đến các package Go trong dự án của bạn. Nó phân tích cơ sở mã để chỉ để lộ các lỗ hổng thực sự ảnh hưởng đến mã của bạn.
 
-### Các Thực hành Tốt nhất về Bảo mật
+### [Các Thực hành Tốt nhất về Bảo mật](docs/security/best-practices.md)
 
 Hướng dẫn về các thực hành tốt nhất để viết mã Go an toàn, bao gồm xác thực đầu vào, xử lý lỗi, và sử dụng các package mật mã.
 
@@ -166,15 +166,15 @@ Hướng dẫn về các thực hành tốt nhất để viết mã Go an toàn,
 
 ## Công cụ chẩn đoán
 
-### Tổng quan về công cụ chẩn đoán
+### [Tổng quan về công cụ chẩn đoán](docs/diagnostics/overview.md)
 
 Một tổng quan về các công cụ và phương pháp chẩn đoán các vấn đề trong chương trình Go.
 
-### Hướng dẫn Garbage Collector
+### [Hướng dẫn Garbage Collector](docs/diagnostics/gc-guide.md)
 
 Một hướng dẫn về cách Go quản lý bộ nhớ và cách tận dụng tối đa nó.
 
-### Hướng dẫn thu thập Profile
+### [Hướng dẫn thu thập Profile](docs/diagnostics/pgo-guide.md)
 
 Một hướng dẫn về cách sử dụng profile hướng dẫn tối ưu hóa (PGO) trong Go.
 
@@ -182,11 +182,11 @@ Một hướng dẫn về cách sử dụng profile hướng dẫn tối ưu hó
 
 ## Các bài viết
 
-### Wiki Go
+### [Wiki Go](docs/articles/wiki.md)
 
 Wiki Go, được duy trì bởi cộng đồng Go, bao gồm các bài viết về ngôn ngữ Go, công cụ và các chủ đề khác.
 
-### Tài liệu không phải tiếng Anh
+### [Tài liệu không phải tiếng Anh](docs/articles/non-english.md)
 
 Xem trang Tài liệu không phải tiếng Anh tại Wiki Go để biết các bản địa hóa của tài liệu Go.
 
@@ -194,7 +194,7 @@ Xem trang Tài liệu không phải tiếng Anh tại Wiki Go để biết các 
 
 ## Truy cập Cơ sở Dữ liệu
 
-### Tổng quan về Truy cập Cơ sở Dữ liệu
+### [Tổng quan về Truy cập Cơ sở Dữ liệu](docs/database/overview.md)
 
 Tổng quan về cách truy cập cơ sở dữ liệu từ Go.
 
@@ -234,11 +234,11 @@ Cách quản lý và tối ưu hóa connection pool trong ứng dụng Go.
 
 ## Cgo
 
-### Cgo
+### [Cgo](docs/cgo/cgo.md)
 
 Liên kết mã Go với các package C bên ngoài.
 
-### Gọi Go từ C
+### [Gọi Go từ C](docs/cgo/calling-go-from-c.md)
 
 Cách gọi hàm Go từ mã C.
 
