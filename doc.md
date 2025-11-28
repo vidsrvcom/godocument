@@ -198,35 +198,35 @@ Xem trang Tài liệu không phải tiếng Anh tại Wiki Go để biết các 
 
 Tổng quan về cách truy cập cơ sở dữ liệu từ Go.
 
-### Mở một xử lý cơ sở dữ liệu
+### [Mở một xử lý cơ sở dữ liệu](docs/database/opening-database-handle.md)
 
 Cách kết nối với cơ sở dữ liệu sử dụng package database/sql trong Go.
 
-### Thực thi các câu lệnh SQL không trả về dữ liệu
+### [Thực thi các câu lệnh SQL không trả về dữ liệu](docs/database/executing-statements.md)
 
 Cách thực thi các câu lệnh INSERT, UPDATE, DELETE, và các câu lệnh SQL khác không trả về dữ liệu.
 
-### Truy vấn dữ liệu
+### [Truy vấn dữ liệu](docs/database/querying-data.md)
 
 Cách truy vấn dữ liệu từ cơ sở dữ liệu trong Go.
 
-### Sử dụng prepared statements
+### [Sử dụng prepared statements](docs/database/prepared-statements.md)
 
 Cách sử dụng prepared statements để thực thi các câu lệnh SQL hiệu quả và an toàn hơn.
 
-### Thực thi giao dịch
+### [Thực thi giao dịch](docs/database/transactions.md)
 
 Cách thực thi các giao dịch cơ sở dữ liệu để đảm bảo tính toàn vẹn dữ liệu.
 
-### Xử lý lỗi
+### [Xử lý lỗi](docs/database/error-handling.md)
 
 Các thực hành tốt nhất cho việc xử lý lỗi khi làm việc với cơ sở dữ liệu trong Go.
 
-### Tránh các vấn đề SQL injection
+### [Tránh các vấn đề SQL injection](docs/database/avoiding-sql-injection.md)
 
 Cách viết các truy vấn SQL an toàn để tránh các lỗ hổng SQL injection.
 
-### Quản lý kết nối
+### [Quản lý kết nối](docs/database/connection-management.md)
 
 Cách quản lý và tối ưu hóa connection pool trong ứng dụng Go.
 
@@ -250,11 +250,11 @@ Cách gọi hàm Go từ mã C.
 
 Mô tả cách sử dụng công cụ bảo hiểm code được tích hợp với go test.
 
-### Tham chiếu Format Testdata
+### [Tham chiếu Format Testdata](docs/advanced/testdata-format.md)
 
 Tham chiếu cho syntax của file "txtar" testdata.
 
-### Cấu hình Fuzz
+### [Cấu hình Fuzz](docs/advanced/fuzz-config.md)
 
 Tham chiếu cho các cấu hình có thể đọc và giải quyết được bằng công cụ go.
 
@@ -270,7 +270,7 @@ Mô tả cách viết và đọc benchmark tests trong Go.
 
 Mô tả cách sử dụng fuzzer bản địa của Go.
 
-### Assembly
+### [Assembly](docs/advanced/assembly.md)
 
 Mô tả cách sử dụng hợp ngữ Go để thực hiện các tác vụ cấp thấp.
 
@@ -278,11 +278,11 @@ Mô tả cách sử dụng hợp ngữ Go để thực hiện các tác vụ c�
 
 Mô tả cách sử dụng công cụ phát hiện data race.
 
-### Làm việc với các đường dẫn file
+### [Làm việc với các đường dẫn file](docs/advanced/file-paths.md)
 
 Mô tả các vấn đề mà các đường dẫn file có thể gây ra và cách làm việc với chúng một cách an toàn trong Go.
 
-### Chế độ FIPS 140
+### [Chế độ FIPS 140](docs/advanced/fips-140.md)
 
 Mô tả cách kích hoạt chế độ tuân thủ FIPS 140 trong Go.
 
@@ -294,15 +294,15 @@ Mô tả cách kích hoạt chế độ tuân thủ FIPS 140 trong Go.
 
 Đo lường từ xa là thu thập dữ liệu sử dụng và chẩn đoán ẩn danh từ chuỗi công cụ Go để cải thiện trải nghiệm nhà phát triển.
 
-### Cấu hình Đo lường từ xa
+### [Cấu hình Đo lường từ xa](docs/telemetry/config.md)
 
 Cách bật, tắt hoặc cấu hình đo lường từ xa trong cài đặt Go của bạn sử dụng lệnh `go telemetry`.
 
-### Dữ liệu được thu thập
+### [Dữ liệu được thu thập](docs/telemetry/collected-data.md)
 
 Các loại dữ liệu được thu thập bởi hệ thống đo lường từ xa Go và cách chúng được sử dụng để cải thiện Go.
 
-### Quyền riêng tư và Đo lường từ xa
+### [Quyền riêng tư và Đo lường từ xa](docs/telemetry/privacy.md)
 
 Thông tin về quyền riêng tư liên quan đến việc thu thập và xử lý dữ liệu đo lường từ xa.
 
@@ -314,11 +314,11 @@ Thông tin về quyền riêng tư liên quan đến việc thu thập và xử 
 
 Cách sử dụng module mirror và checksum database.
 
-### Private Module
+### [Private Module](docs/build/private-module.md)
 
 Cách cấu hình các module riêng tư với go.
 
-### Xây dựng lại có thể tái tạo
+### [Xây dựng lại có thể tái tạo](docs/build/reproducible-builds.md)
 
 Cách xác minh rằng một bản build Go được tái tạo chính xác.
 
@@ -326,7 +326,7 @@ Cách xác minh rằng một bản build Go được tái tạo chính xác.
 
 ## Phát triển Go
 
-### Quá trình phát triển
+### [Quá trình phát triển](docs/development/development-process.md)
 
 Tham gia vào phát triển Go.
 
@@ -334,15 +334,15 @@ Tham gia vào phát triển Go.
 
 Quy trình để gửi các thay đổi cho dự án Go.
 
-### Đóng góp vào Wiki
+### [Đóng góp vào Wiki](docs/development/contributing-wiki.md)
 
 Quy trình để đóng góp vào Wiki Go.
 
-### Thiết lập và sử dụng Website Go cục bộ
+### [Thiết lập và sử dụng Website Go cục bộ](docs/development/local-website.md)
 
 Cách thiết lập website Go cục bộ để phát triển.
 
-### Source code
+### [Source code](docs/development/source-code.md)
 
 Xem mã nguồn Go.
 
