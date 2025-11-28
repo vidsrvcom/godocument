@@ -156,7 +156,7 @@ Cơ sở dữ liệu lỗ hổng Go là nguồn tổng hợp thông tin về cá
 
 ### govulncheck
 
-Govulncheck là công cụ dòng lệnh báo cáo các lỗ hổng bảo mật đã biết ảnh hưởng đến các package Go trong dự án của bạn. Nó phân tích cơ sở mã để chỉ bề lộ các lỗ hổng thực sự ảnh hưởng đến mã của bạn.
+Govulncheck là công cụ dòng lệnh báo cáo các lỗ hổng bảo mật đã biết ảnh hưởng đến các package Go trong dự án của bạn. Nó phân tích cơ sở mã để chỉ để lộ các lỗ hổng thực sự ảnh hưởng đến mã của bạn.
 
 ### Các Thực hành Tốt nhất về Bảo mật
 
@@ -292,7 +292,7 @@ Mô tả cách kích hoạt chế độ tuân thủ FIPS 140 trong Go.
 
 ### Tổng quan về Đo lường từ xa
 
-Đo lường từ xa là thu thập dữ liệu sử dụng và chẩn đoán ẩn danh từ toolchain Go để cải thiện trải nghiệm nhà phát triển.
+Đo lường từ xa là thu thập dữ liệu sử dụng và chẩn đoán ẩn danh từ chuỗi công cụ Go để cải thiện trải nghiệm nhà phát triển.
 
 ### Cấu hình Đo lường từ xa
 
