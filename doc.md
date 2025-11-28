@@ -17,7 +17,7 @@ Go mang tính biểu đạt cao, súc tích, sạch sẽ và hiệu quả. Các 
 
 ## Bắt đầu
 
-### Cài đặt Go
+### [Cài đặt Go](tutorials/install.md)
 
 Hướng dẫn tải xuống và cài đặt Go.
 
@@ -64,6 +64,7 @@ Hướng dẫn tải xuống và cài đặt Go.
    ```
 
 ### Hướng dẫn: Bắt đầu với Go
+### [Hướng dẫn: Bắt đầu với Go](tutorials/getting-started.md)
 
 Một hướng dẫn giới thiệu ngắn gọn "Hello, World" để thiết lập và sử dụng Go.
 
@@ -101,7 +102,7 @@ go build
 ./hello  # hoặc hello.exe trên Windows
 ```
 
-### Hướng dẫn: Tạo một module Go
+### [Hướng dẫn: Tạo một module Go](tutorials/create-module.md)
 
 Một hướng dẫn giới thiệu ngắn về các hàm, xử lý lỗi, mảng, map, unit testing và biên dịch.
 
@@ -525,6 +526,35 @@ func albumsByArtist(artist string) ([]Album, error) {
 ```
 
 ### Hướng dẫn: Tìm và sửa các phụ thuộc có lỗ hổng bảo mật
+### [Hướng dẫn: Bắt đầu với multi-module workspaces](tutorials/workspaces.md)
+
+Giới thiệu về cơ bản của việc tạo và sử dụng multi-module workspaces trong Go. Multi-module workspaces hữu ích cho việc thực hiện các thay đổi trên nhiều module.
+
+### [Hướng dẫn: Phát triển RESTful API với Go và Gin](tutorials/web-service-gin.md)
+
+Giới thiệu về viết RESTful web service API với Go và Gin Web Framework.
+
+### [Hướng dẫn: Bắt đầu với generics](tutorials/generics.md)
+
+Với generics, bạn có thể khai báo và sử dụng các hàm hoặc kiểu được viết để làm việc với bất kỳ tập hợp kiểu nào do mã gọi cung cấp.
+
+### [Hướng dẫn: Bắt đầu với fuzzing](tutorials/fuzzing.md)
+
+Fuzzing có thể tạo ra các đầu vào cho các bài test của bạn có thể bắt được các trường hợp biên mà bạn có thể đã bỏ lỡ.
+
+### [Viết Ứng dụng Web](tutorials/web-application.md)
+
+Xây dựng một ứng dụng web đơn giản.
+
+### [Cách viết mã Go](tutorials/how-to-write-go-code.md)
+
+Tài liệu này giải thích cách phát triển một tập hợp đơn giản các Go package bên trong một module, và cho thấy cách sử dụng lệnh go để build và test các package.
+
+### [Hướng dẫn: Truy cập cơ sở dữ liệu quan hệ](tutorials/database-access.md)
+
+Giới thiệu về cơ bản của việc truy cập cơ sở dữ liệu quan hệ với Go và package database/sql trong thư viện chuẩn.
+
+### [Hướng dẫn: Tìm và sửa các phụ thuộc có lỗ hổng bảo mật](tutorials/vulnerability.md)
 
 Hướng dẫn sử dụng govulncheck để tìm và sửa các lỗ hổng bảo mật trong các phụ thuộc của bạn.
 
@@ -558,7 +588,7 @@ go mod tidy
 
 ## Sử dụng và hiểu Go
 
-### Effective Go
+### [Effective Go](docs/using-go/effective-go.md)
 
 Một tài liệu cung cấp các mẹo để viết mã Go rõ ràng, theo phong cách chuẩn. Đây là tài liệu phải đọc cho bất kỳ lập trình viên Go mới nào. Nó bổ sung cho tour và đặc tả ngôn ngữ, cả hai đều nên đọc trước.
 
@@ -839,6 +869,31 @@ go doc -http=:6060
 ```
 
 ### Một Tour về Go
+### [Đặc tả ngôn ngữ Go](docs/using-go/spec.md)
+
+Đặc tả chính thức của ngôn ngữ Go.
+
+### [Tài liệu thư viện chuẩn](docs/using-go/stdlib.md)
+
+Tài liệu cho thư viện chuẩn Go.
+
+### [Go Modules Reference](docs/using-go/modules-reference.md)
+
+Tham chiếu chi tiết cho hệ thống quản lý phụ thuộc của Go.
+
+### [go.mod file reference](docs/using-go/gomod-reference.md)
+
+Tham chiếu cho các chỉ thị có trong file go.mod.
+
+### [Tham chiếu lệnh Go](docs/using-go/go-command.md)
+
+Tài liệu cho công cụ Go.
+
+### [Tham chiếu Comment tài liệu](docs/using-go/doc-comment.md)
+
+Viết các comment tài liệu cho godoc.
+
+### [Một Tour về Go](docs/using-go/tour.md)
 
 Một tour tương tác về Go trong 4 phần. Phần đầu tiên bao gồm cú pháp cơ bản và cấu trúc dữ liệu; phần thứ hai thảo luận về các phương thức và interface; phần thứ ba giới thiệu về generics của Go; và phần thứ tư là về các nguyên thủy đồng thời của Go. Mỗi phần kết thúc với một vài bài tập để bạn có thể thực hành những gì bạn đã học. Bạn có thể tham gia tour trực tuyến hoặc cài đặt nó cục bộ với:
 
@@ -925,6 +980,11 @@ Mô hình bộ nhớ Go xác định các điều kiện theo đó các hoạt �
    ```
 
 ### Câu hỏi thường gặp (FAQ)
+### [Mô hình Bộ nhớ Go](docs/using-go/memory-model.md)
+
+Mô hình bộ nhớ Go xác định các điều kiện theo đó các hoạt động đọc một biến trong một goroutine có thể được đảm bảo quan sát các giá trị được tạo ra bởi các hoạt động ghi vào cùng một biến trong một goroutine khác.
+
+### [Câu hỏi thường gặp (FAQ)](docs/using-go/faq.md)
 
 Câu trả lời cho các câu hỏi phổ biến về Go.
 
@@ -955,7 +1015,7 @@ A: Mặc định dùng unbuffered (0). Buffer chỉ dùng khi cần decouple sen
 
 ## Tham chiếu
 
-### Bản phát hành
+### [Bản phát hành](docs/references/release-history.md)
 
 Lịch sử phát hành Go.
 
@@ -1028,6 +1088,15 @@ Một wiki được duy trì bởi cộng đồng Go.
 - [Modules](https://go.dev/wiki/Modules) - Hướng dẫn chi tiết về modules
 
 ### Tài liệu Tham khảo về Môi trường
+### [Cam kết Tương thích Go 1](docs/references/go1-compat.md)
+
+Cam kết Go 1 về tính tương thích. Các chương trình Go viết theo đặc tả Go 1 sẽ tiếp tục biên dịch và chạy đúng, không thay đổi, trong suốt vòng đời của phiên bản 1 của Go.
+
+### [Go Wiki](docs/references/wiki.md)
+
+Một wiki được duy trì bởi cộng đồng Go.
+
+### [Tài liệu Tham khảo về Môi trường](docs/references/environment.md)
 
 Các biến môi trường ảnh hưởng đến hành vi của các công cụ Go.
 
@@ -1073,7 +1142,7 @@ GOOS=linux GOARCH=arm64 go build -o app-linux-arm
 
 ## Hỗ trợ biên tập viên và IDE
 
-### Hỗ trợ plugin và IDE cho biên tập viên
+### [Hỗ trợ plugin và IDE cho biên tập viên](docs/editors/ide-support.md)
 
 Một tài liệu tóm tắt các plugin và IDE phổ biến được sử dụng với Go.
 
@@ -1108,6 +1177,7 @@ gotests               # Test generation
 ```
 
 ### Gopls
+### [Gopls](docs/editors/gopls.md)
 
 Gopls là Go language server cung cấp các tính năng như tự động hoàn thành, định dạng và chẩn đoán cho các IDE và biên tập văn bản.
 
@@ -1161,7 +1231,7 @@ require('lspconfig').gopls.setup{
 
 ## Bảo mật
 
-### Tổng quan về Bảo mật
+### [Tổng quan về Bảo mật](docs/security/overview.md)
 
 Tổng quan về các tài nguyên bảo mật cho các nhà phát triển Go.
 
@@ -1274,6 +1344,23 @@ Govulncheck là công cụ dòng lệnh báo cáo các lỗ hổng bảo mật �
 - GoLand: Tích hợp sẵn
 
 ### Các Thực hành Tốt nhất về Bảo mật
+### [Chính sách Bảo mật Go](docs/security/security-policy.md)
+
+Mô tả cách nhóm Go xử lý các lỗi bảo mật trong ngôn ngữ Go, thư viện, và các công cụ. Bao gồm hướng dẫn báo cáo các vấn đề bảo mật.
+
+### [Quản lý Lỗ hổng Bảo mật](docs/security/vulnerability-management.md)
+
+Tổng quan về cách Go hỗ trợ phát hiện và giải quyết các lỗ hổng bảo mật trong các phụ thuộc của dự án Go.
+
+### [Cơ sở dữ liệu Lỗ hổng Go](docs/security/vulnerability-database.md)
+
+Cơ sở dữ liệu lỗ hổng Go là nguồn tổng hợp thông tin về các lỗ hổng bảo mật đã biết trong các module Go công khai.
+
+### [govulncheck](docs/security/govulncheck.md)
+
+Govulncheck là công cụ dòng lệnh báo cáo các lỗ hổng bảo mật đã biết ảnh hưởng đến các package Go trong dự án của bạn. Nó phân tích cơ sở mã để chỉ để lộ các lỗ hổng thực sự ảnh hưởng đến mã của bạn.
+
+### [Các Thực hành Tốt nhất về Bảo mật](docs/security/best-practices.md)
 
 Hướng dẫn về các thực hành tốt nhất để viết mã Go an toàn, bao gồm xác thực đầu vào, xử lý lỗi, và sử dụng các package mật mã.
 
@@ -1314,6 +1401,7 @@ db.Query(query)
 
 // ✅ AN TOÀN - Sử dụng parameterized query
 db.Query("SELECT * FROM users WHERE name = ?", name)
+### [Tổng quan về công cụ chẩn đoán](docs/diagnostics/overview.md)
 
 // ✅ AN TOÀN - Prepared statement
 stmt, _ := db.Prepare("SELECT * FROM users WHERE name = ?")
@@ -1353,6 +1441,7 @@ func generateToken(length int) (string, error) {
 // ❌ KHÔNG dùng crypto/md5 hoặc crypto/sha1 cho password
 // ❌ KHÔNG dùng math/rand cho security
 ```
+### [Hướng dẫn Garbage Collector](docs/diagnostics/gc-guide.md)
 
 **4. Xử lý secrets:**
 ```go
@@ -1363,6 +1452,7 @@ apiKey := os.Getenv("API_KEY")
 if apiKey == "" {
     log.Fatal("API_KEY environment variable is required")
 }
+### [Hướng dẫn thu thập Profile](docs/diagnostics/pgo-guide.md)
 
 // ❌ KHÔNG hardcode secrets trong code
 // ❌ KHÔNG log secrets
@@ -1393,10 +1483,12 @@ http.ListenAndServeTLS(":443", "cert.pem", "key.pem", nil)
 ## Công cụ chẩn đoán
 
 ### Tổng quan về công cụ chẩn đoán
+### [Wiki Go](docs/articles/wiki.md)
 
 Một tổng quan về các công cụ và phương pháp chẩn đoán các vấn đề trong chương trình Go.
 
 **Các công cụ chẩn đoán chính:**
+### [Tài liệu không phải tiếng Anh](docs/articles/non-english.md)
 
 | Công cụ | Mục đích |
 |---------|----------|
@@ -1418,6 +1510,7 @@ go test -race ./...
 
 # Profiling
 go test -cpuprofile=cpu.prof -memprofile=mem.prof -bench=.
+### [Tổng quan về Truy cập Cơ sở Dữ liệu](docs/database/overview.md)
 
 # Xem profile
 go tool pprof cpu.prof
@@ -1512,6 +1605,7 @@ import (
     "os"
     "runtime/pprof"
 )
+### [Cgo](docs/cgo/cgo.md)
 
 func main() {
     // Thu thập CPU profile
@@ -1527,6 +1621,7 @@ func main() {
 ```bash
 # Đổi tên profile thành default.pgo
 mv cpu.pprof default.pgo
+### [Gọi Go từ C](docs/cgo/calling-go-from-c.md)
 
 # Build với PGO (tự động phát hiện default.pgo)
 go build -pgo=auto
@@ -1551,6 +1646,7 @@ func main() {
 ```bash
 # Thu thập profile
 curl http://localhost:6060/debug/pprof/profile?seconds=30 > cpu.pprof
+### [Bảo hiểm Code](docs/advanced/code-coverage.md)
 
 # Xem profile trong trình duyệt
 go tool pprof -http=:8080 cpu.pprof
@@ -1573,6 +1669,7 @@ go tool pprof http://localhost:6060/debug/pprof/block
 # Mutex profile - xác định mutex contention
 go tool pprof http://localhost:6060/debug/pprof/mutex
 ```
+### [Quản lý phụ thuộc](docs/advanced/dependency-management.md)
 
 **Phân tích profile với pprof:**
 ```bash
@@ -1595,6 +1692,7 @@ func BenchmarkProcess(b *testing.B) {
     }
 }
 ```
+### [Đánh giá hiệu suất](docs/advanced/benchmarking.md)
 
 ```bash
 # Chạy benchmark với profile
@@ -2531,7 +2629,7 @@ go test -bench=. -count=5 > new.txt
 benchstat old.txt new.txt
 ```
 
-### Fuzz Testing
+### [Fuzz Testing](docs/advanced/fuzzing.md)
 
 Mô tả cách sử dụng fuzzer bản địa của Go.
 
@@ -2612,6 +2710,7 @@ go build
 - Hardware-specific optimizations
 
 ### Race Detector
+### [Race Detector](docs/advanced/race-detector.md)
 
 Mô tả cách sử dụng công cụ phát hiện data race.
 
@@ -2748,7 +2847,7 @@ block, _ := aes.NewCipher(key)
 
 ## Đo lường từ xa Go (Telemetry)
 
-### Tổng quan về Đo lường từ xa
+### [Tổng quan về Đo lường từ xa](docs/telemetry/overview.md)
 
 Đo lường từ xa là thu thập dữ liệu sử dụng và chẩn đoán ẩn danh từ chuỗi công cụ Go để cải thiện trải nghiệm nhà phát triển.
 
@@ -2880,7 +2979,7 @@ env:
 
 ## Xây dựng và phát hành
 
-### Module Mirror và Checksum Database
+### [Module Mirror và Checksum Database](docs/build/module-mirror.md)
 
 Cách sử dụng module mirror và checksum database.
 
@@ -3084,6 +3183,7 @@ cd go/src
 ```
 
 ### Đóng góp mã
+### [Đóng góp mã](docs/development/contributing.md)
 
 Quy trình để gửi các thay đổi cho dự án Go.
 
@@ -3226,7 +3326,7 @@ go doc -all fmt
 
 ---
 
-## Cộng đồng
+## [Cộng đồng](docs/community/overview.md)
 
 Cộng đồng Go rất sôi nổi và thân thiện. Để tham gia:
 

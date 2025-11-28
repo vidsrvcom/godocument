@@ -9,6 +9,20 @@ Dự án này cung cấp bản dịch tiếng Việt **đầy đủ và chi ti�
 
 - [doc.md](doc.md) - Trang tài liệu chính (dịch từ [go.dev/doc](https://go.dev/doc/))
 
+### Hướng dẫn chi tiết (Tutorials)
+
+- [Cài đặt Go](tutorials/install.md) - Hướng dẫn tải xuống và cài đặt Go
+- [Bắt đầu với Go](tutorials/getting-started.md) - Hướng dẫn "Hello, World!" để thiết lập và sử dụng Go
+- [Tạo một module Go](tutorials/create-module.md) - Hướng dẫn về hàm, xử lý lỗi, mảng, map, unit testing và biên dịch
+- [Multi-module workspaces](tutorials/workspaces.md) - Giới thiệu về tạo và sử dụng multi-module workspaces
+- [RESTful API với Go và Gin](tutorials/web-service-gin.md) - Viết RESTful web service API với Gin Framework
+- [Bắt đầu với generics](tutorials/generics.md) - Khai báo và sử dụng hàm hoặc kiểu generic
+- [Bắt đầu với fuzzing](tutorials/fuzzing.md) - Tạo các đầu vào cho test để bắt các trường hợp biên
+- [Truy cập cơ sở dữ liệu quan hệ](tutorials/database-access.md) - Truy cập database với package database/sql
+- [Viết ứng dụng web](tutorials/web-application.md) - Xây dựng một ứng dụng web đơn giản
+- [Cách viết mã Go](tutorials/how-to-write-go-code.md) - Phát triển các Go package bên trong một module
+- [Tìm và sửa lỗ hổng bảo mật](tutorials/vulnerability.md) - Sử dụng govulncheck để tìm và sửa các lỗ hổng bảo mật
+
 ### Các phần chính trong tài liệu:
 
 | Phần | Nội dung |
@@ -51,6 +65,20 @@ This project provides a **comprehensive and detailed** Vietnamese translation of
 ## Contents
 
 - [doc.md](doc.md) - Main documentation page (translated from [go.dev/doc](https://go.dev/doc/))
+
+### Detailed Tutorials
+
+- [Installing Go](tutorials/install.md) - Guide to download and install Go
+- [Getting Started with Go](tutorials/getting-started.md) - "Hello, World!" tutorial for setting up and using Go
+- [Create a Go module](tutorials/create-module.md) - Tutorial on functions, error handling, arrays, maps, unit testing and compilation
+- [Multi-module workspaces](tutorials/workspaces.md) - Introduction to creating and using multi-module workspaces
+- [RESTful API with Go and Gin](tutorials/web-service-gin.md) - Writing RESTful web service API with Gin Framework
+- [Getting started with generics](tutorials/generics.md) - Declaring and using generic functions or types
+- [Getting started with fuzzing](tutorials/fuzzing.md) - Creating test inputs to catch edge cases
+- [Accessing a relational database](tutorials/database-access.md) - Accessing database with database/sql package
+- [Writing web applications](tutorials/web-application.md) - Building a simple web application
+- [How to write Go code](tutorials/how-to-write-go-code.md) - Developing Go packages within a module
+- [Finding and fixing vulnerabilities](tutorials/vulnerability.md) - Using govulncheck to find and fix security vulnerabilities
 
 ### Main sections in the documentation:
 
