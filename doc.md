@@ -12,27 +12,27 @@ Go mang tính biểu đạt cao, súc tích, sạch sẽ và hiệu quả. Các 
 
 Hướng dẫn tải xuống và cài đặt Go.
 
-### Hướng dẫn: Bắt đầu với Go
+### [Hướng dẫn: Bắt đầu với Go](tutorials/getting-started.md)
 
 Một hướng dẫn giới thiệu ngắn gọn "Hello, World" để thiết lập và sử dụng Go. Tìm hiểu một chút về mã Go, công cụ, package và module.
 
-### Hướng dẫn: Tạo một module Go
+### [Hướng dẫn: Tạo một module Go](tutorials/create-module.md)
 
 Một hướng dẫn giới thiệu ngắn về các hàm, xử lý lỗi, mảng, map, unit testing và biên dịch.
 
-### Hướng dẫn: Bắt đầu với multi-module workspaces
+### [Hướng dẫn: Bắt đầu với multi-module workspaces](tutorials/workspaces.md)
 
 Giới thiệu về cơ bản của việc tạo và sử dụng multi-module workspaces trong Go. Multi-module workspaces hữu ích cho việc thực hiện các thay đổi trên nhiều module.
 
-### Hướng dẫn: Phát triển RESTful API với Go và Gin
+### [Hướng dẫn: Phát triển RESTful API với Go và Gin](tutorials/web-service-gin.md)
 
 Giới thiệu về viết RESTful web service API với Go và Gin Web Framework.
 
-### Hướng dẫn: Bắt đầu với generics
+### [Hướng dẫn: Bắt đầu với generics](tutorials/generics.md)
 
 Với generics, bạn có thể khai báo và sử dụng các hàm hoặc kiểu được viết để làm việc với bất kỳ tập hợp kiểu nào do mã gọi cung cấp.
 
-### Hướng dẫn: Bắt đầu với fuzzing
+### [Hướng dẫn: Bắt đầu với fuzzing](tutorials/fuzzing.md)
 
 Fuzzing có thể tạo ra các đầu vào cho các bài test của bạn có thể bắt được các trường hợp biên mà bạn có thể đã bỏ lỡ.
 
@@ -44,7 +44,7 @@ Xây dựng một ứng dụng web đơn giản.
 
 Tài liệu này giải thích cách phát triển một tập hợp đơn giản các Go package bên trong một module, và cho thấy cách sử dụng lệnh go để build và test các package.
 
-### Hướng dẫn: Truy cập cơ sở dữ liệu quan hệ
+### [Hướng dẫn: Truy cập cơ sở dữ liệu quan hệ](tutorials/database-access.md)
 
 Giới thiệu về cơ bản của việc truy cập cơ sở dữ liệu quan hệ với Go và package database/sql trong thư viện chuẩn.
 
