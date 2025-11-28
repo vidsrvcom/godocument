@@ -44,6 +44,14 @@ Xây dựng một ứng dụng web đơn giản.
 
 Tài liệu này giải thích cách phát triển một tập hợp đơn giản các Go package bên trong một module, và cho thấy cách sử dụng lệnh go để build và test các package.
 
+### Hướng dẫn: Truy cập cơ sở dữ liệu quan hệ
+
+Giới thiệu về cơ bản của việc truy cập cơ sở dữ liệu quan hệ với Go và package database/sql trong thư viện chuẩn.
+
+### Hướng dẫn: Tìm và sửa các phụ thuộc có lỗ hổng bảo mật
+
+Hướng dẫn sử dụng govulncheck để tìm và sửa các lỗ hổng bảo mật trong các phụ thuộc của bạn.
+
 ---
 
 ## Sử dụng và hiểu Go
@@ -86,6 +94,10 @@ $ go install golang.org/x/website/tour@latest
 
 Điều này sẽ đặt binary tour trong thư mục bin của GOPATH của bạn.
 
+### Mô hình Bộ nhớ Go
+
+Mô hình bộ nhớ Go xác định các điều kiện theo đó các hoạt động đọc một biến trong một goroutine có thể được đảm bảo quan sát các giá trị được tạo ra bởi các hoạt động ghi vào cùng một biến trong một goroutine khác.
+
 ### Câu hỏi thường gặp (FAQ)
 
 Câu trả lời cho các câu hỏi phổ biến về Go.
@@ -97,6 +109,10 @@ Câu trả lời cho các câu hỏi phổ biến về Go.
 ### Bản phát hành
 
 Lịch sử phát hành Go.
+
+### Cam kết Tương thích Go 1
+
+Cam kết Go 1 về tính tương thích. Các chương trình Go viết theo đặc tả Go 1 sẽ tiếp tục biên dịch và chạy đúng, không thay đổi, trong suốt vòng đời của phiên bản 1 của Go.
 
 ### Go Wiki
 
@@ -117,6 +133,34 @@ Một tài liệu tóm tắt các plugin và IDE phổ biến được sử dụ
 ### Gopls
 
 Gopls là Go language server cung cấp các tính năng như tự động hoàn thành, định dạng và chẩn đoán cho các IDE và biên tập văn bản.
+
+---
+
+## Bảo mật
+
+### Tổng quan về Bảo mật
+
+Tổng quan về các tài nguyên bảo mật cho các nhà phát triển Go.
+
+### Chính sách Bảo mật Go
+
+Mô tả cách nhóm Go xử lý các lỗi bảo mật trong ngôn ngữ Go, thư viện, và các công cụ. Bao gồm hướng dẫn báo cáo các vấn đề bảo mật.
+
+### Quản lý Lỗ hổng Bảo mật
+
+Tổng quan về cách Go hỗ trợ phát hiện và giải quyết các lỗ hổng bảo mật trong các phụ thuộc của dự án Go.
+
+### Cơ sở dữ liệu Lỗ hổng Go
+
+Cơ sở dữ liệu lỗ hổng Go là nguồn tổng hợp thông tin về các lỗ hổng bảo mật đã biết trong các module Go công khai.
+
+### govulncheck
+
+Govulncheck là công cụ dòng lệnh báo cáo các lỗ hổng bảo mật đã biết ảnh hưởng đến các package Go trong dự án của bạn. Nó phân tích cơ sở mã để chỉ để lộ các lỗ hổng thực sự ảnh hưởng đến mã của bạn.
+
+### Các Thực hành Tốt nhất về Bảo mật
+
+Hướng dẫn về các thực hành tốt nhất để viết mã Go an toàn, bao gồm xác thực đầu vào, xử lý lỗi, và sử dụng các package mật mã.
 
 ---
 
@@ -145,6 +189,46 @@ Wiki Go, được duy trì bởi cộng đồng Go, bao gồm các bài viết v
 ### Tài liệu không phải tiếng Anh
 
 Xem trang Tài liệu không phải tiếng Anh tại Wiki Go để biết các bản địa hóa của tài liệu Go.
+
+---
+
+## Truy cập Cơ sở Dữ liệu
+
+### Tổng quan về Truy cập Cơ sở Dữ liệu
+
+Tổng quan về cách truy cập cơ sở dữ liệu từ Go.
+
+### Mở một xử lý cơ sở dữ liệu
+
+Cách kết nối với cơ sở dữ liệu sử dụng package database/sql trong Go.
+
+### Thực thi các câu lệnh SQL không trả về dữ liệu
+
+Cách thực thi các câu lệnh INSERT, UPDATE, DELETE, và các câu lệnh SQL khác không trả về dữ liệu.
+
+### Truy vấn dữ liệu
+
+Cách truy vấn dữ liệu từ cơ sở dữ liệu trong Go.
+
+### Sử dụng prepared statements
+
+Cách sử dụng prepared statements để thực thi các câu lệnh SQL hiệu quả và an toàn hơn.
+
+### Thực thi giao dịch
+
+Cách thực thi các giao dịch cơ sở dữ liệu để đảm bảo tính toàn vẹn dữ liệu.
+
+### Xử lý lỗi
+
+Các thực hành tốt nhất cho việc xử lý lỗi khi làm việc với cơ sở dữ liệu trong Go.
+
+### Tránh các vấn đề SQL injection
+
+Cách viết các truy vấn SQL an toàn để tránh các lỗ hổng SQL injection.
+
+### Quản lý kết nối
+
+Cách quản lý và tối ưu hóa connection pool trong ứng dụng Go.
 
 ---
 
@@ -197,6 +281,30 @@ Mô tả cách sử dụng công cụ phát hiện data race.
 ### Làm việc với các đường dẫn file
 
 Mô tả các vấn đề mà các đường dẫn file có thể gây ra và cách làm việc với chúng một cách an toàn trong Go.
+
+### Chế độ FIPS 140
+
+Mô tả cách kích hoạt chế độ tuân thủ FIPS 140 trong Go.
+
+---
+
+## Đo lường từ xa Go (Telemetry)
+
+### Tổng quan về Đo lường từ xa
+
+Đo lường từ xa là thu thập dữ liệu sử dụng và chẩn đoán ẩn danh từ chuỗi công cụ Go để cải thiện trải nghiệm nhà phát triển.
+
+### Cấu hình Đo lường từ xa
+
+Cách bật, tắt hoặc cấu hình đo lường từ xa trong cài đặt Go của bạn sử dụng lệnh `go telemetry`.
+
+### Dữ liệu được thu thập
+
+Các loại dữ liệu được thu thập bởi hệ thống đo lường từ xa Go và cách chúng được sử dụng để cải thiện Go.
+
+### Quyền riêng tư và Đo lường từ xa
+
+Thông tin về quyền riêng tư liên quan đến việc thu thập và xử lý dữ liệu đo lường từ xa.
 
 ---
 
