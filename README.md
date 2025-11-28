@@ -9,6 +9,16 @@ Dự án này cung cấp bản dịch tiếng Việt của tài liệu chính th
 
 - [doc.md](doc.md) - Trang tài liệu chính (dịch từ [go.dev/doc](https://go.dev/doc/))
 
+### Hướng dẫn chi tiết (Tutorials)
+
+- [Bắt đầu với Go](tutorials/getting-started.md) - Hướng dẫn "Hello, World!" để thiết lập và sử dụng Go
+- [Tạo một module Go](tutorials/create-module.md) - Hướng dẫn về hàm, xử lý lỗi, mảng, map, unit testing và biên dịch
+- [Multi-module workspaces](tutorials/workspaces.md) - Giới thiệu về tạo và sử dụng multi-module workspaces
+- [RESTful API với Go và Gin](tutorials/web-service-gin.md) - Viết RESTful web service API với Gin Framework
+- [Bắt đầu với generics](tutorials/generics.md) - Khai báo và sử dụng hàm hoặc kiểu generic
+- [Bắt đầu với fuzzing](tutorials/fuzzing.md) - Tạo các đầu vào cho test để bắt các trường hợp biên
+- [Truy cập cơ sở dữ liệu quan hệ](tutorials/database-access.md) - Truy cập database với package database/sql
+
 ### Các phần chính trong tài liệu:
 - **Bắt đầu**: Cài đặt Go, các hướng dẫn cơ bản
 - **Sử dụng và hiểu Go**: Effective Go, đặc tả ngôn ngữ, mô hình bộ nhớ
@@ -40,6 +50,16 @@ This project provides Vietnamese translations of the official Go programming lan
 ## Contents
 
 - [doc.md](doc.md) - Main documentation page (translated from [go.dev/doc](https://go.dev/doc/))
+
+### Detailed Tutorials
+
+- [Getting Started with Go](tutorials/getting-started.md) - "Hello, World!" tutorial for setting up and using Go
+- [Create a Go module](tutorials/create-module.md) - Tutorial on functions, error handling, arrays, maps, unit testing and compilation
+- [Multi-module workspaces](tutorials/workspaces.md) - Introduction to creating and using multi-module workspaces
+- [RESTful API with Go and Gin](tutorials/web-service-gin.md) - Writing RESTful web service API with Gin Framework
+- [Getting started with generics](tutorials/generics.md) - Declaring and using generic functions or types
+- [Getting started with fuzzing](tutorials/fuzzing.md) - Creating test inputs to catch edge cases
+- [Accessing a relational database](tutorials/database-access.md) - Accessing database with database/sql package
 
 ### Main sections in the documentation:
 - **Getting Started**: Installing Go, basic tutorials
