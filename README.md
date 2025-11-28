@@ -1,0 +1,2 @@
+# godocument
+Document Go Vietnamese
