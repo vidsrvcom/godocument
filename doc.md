@@ -8,7 +8,7 @@ Go mang tính biểu đạt cao, súc tích, sạch sẽ và hiệu quả. Các 
 
 ## Bắt đầu
 
-### Cài đặt Go
+### [Cài đặt Go](tutorials/install.md)
 
 Hướng dẫn tải xuống và cài đặt Go.
 
@@ -36,11 +36,11 @@ Với generics, bạn có thể khai báo và sử dụng các hàm hoặc kiể
 
 Fuzzing có thể tạo ra các đầu vào cho các bài test của bạn có thể bắt được các trường hợp biên mà bạn có thể đã bỏ lỡ.
 
-### Viết Ứng dụng Web
+### [Viết Ứng dụng Web](tutorials/web-application.md)
 
 Xây dựng một ứng dụng web đơn giản.
 
-### Cách viết mã Go
+### [Cách viết mã Go](tutorials/how-to-write-go-code.md)
 
 Tài liệu này giải thích cách phát triển một tập hợp đơn giản các Go package bên trong một module, và cho thấy cách sử dụng lệnh go để build và test các package.
 
@@ -48,7 +48,7 @@ Tài liệu này giải thích cách phát triển một tập hợp đơn giả
 
 Giới thiệu về cơ bản của việc truy cập cơ sở dữ liệu quan hệ với Go và package database/sql trong thư viện chuẩn.
 
-### Hướng dẫn: Tìm và sửa các phụ thuộc có lỗ hổng bảo mật
+### [Hướng dẫn: Tìm và sửa các phụ thuộc có lỗ hổng bảo mật](tutorials/vulnerability.md)
 
 Hướng dẫn sử dụng govulncheck để tìm và sửa các lỗ hổng bảo mật trong các phụ thuộc của bạn.
 
